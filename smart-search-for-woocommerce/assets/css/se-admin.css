@@ -1,0 +1,19 @@
+#snize_container select {
+    min-width: 120px;
+}
+
+#snize_container input[type="checkbox"]:checked {
+    appearance: checkbox;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+
+#snize_container input[type="checkbox"]:checked:before {
+    display: none;
+}
+
+#snize_container .nav-tabs > li > a:focus,
+#snize_container input[type="checkbox"]:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
